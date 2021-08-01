@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Greeting</title>
+    <title>greeting</title>
 </head>
 <body>
 <h1>${message}</h1>
