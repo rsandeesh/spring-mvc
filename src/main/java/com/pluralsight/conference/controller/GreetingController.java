@@ -18,4 +18,11 @@ public class GreetingController {
         System.out.println("model = " + model);
         return "greeting";
     }
+
+    @GetMapping("thyme")
+    public String thyme(Map<String, Object> model) {
+        model.put("message","Hello thymeleaf");
+        System.out.println("model = " + model);
+        return "thyme";
+    }
 }
