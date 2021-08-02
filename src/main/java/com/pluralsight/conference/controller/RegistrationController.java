@@ -22,8 +22,7 @@ public class RegistrationController {
     }
 
     @PostMapping("registration")
-    public String addRegistration(@Valid @ModelAttribute ("registration")
-                                              Registration registration, BindingResult result) {
+    public String addRegistration(@Valid @ModelAttribute ("registration") Registration registration, BindingResult result) {
 
         if(result.hasErrors()){
             System.out.println("There were errors");
